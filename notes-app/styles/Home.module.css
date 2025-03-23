@@ -1,0 +1,28 @@
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .gridContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .emptyState {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .emptyStateText {
+    color: #6b7280;
+    margin-bottom: 1rem;
+  }
+  
